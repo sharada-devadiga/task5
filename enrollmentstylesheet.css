@@ -1,0 +1,335 @@
+*{font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;}
+
+body{background-color:rgba(241, 241, 241, 1) ;
+    }    
+
+.header{background-color:rgba(15, 23, 43, 1) ;
+        border: 1px solid;border-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    height: 52px;
+    width: 1440px;}
+    
+.header-left{display: flex;
+            width: 368px;
+        gap:50px ;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+align-items: center;}    
+
+.header-right{display: flex;
+            width: 1040px;
+             
+            color: white;
+            align-items: center;
+            justify-content: space-between;}
+
+.navbar{display: flex;
+            width:280px; 
+            height:32px ;
+            padding-left: 16px;
+            padding-right: 16px;
+            color: white;
+            align-items: center;
+            justify-content:space-between}
+          
+.enrollment{ display: flex;}            
+
+.enrollment-list{ background-color:rgba(32, 32, 32, 1) ;
+                width:400px ;
+                height:1034px;
+            border-top: 1px;
+        border-color: rgba(255, 255, 255, 0.3);}
+        
+.event-summary{border:1px solid;
+border-color: rgba(255, 255, 255, 0.4);
+display:flex;
+justify-content: space-between;
+border-radius:999px;margin-left: 20px;
+margin-right: 20px; }
+
+button{border-radius: 999px;
+padding: 12px;}
+
+.active{background-color: rgba(58, 67, 75, 1);
+    color: white;}
+
+.completed{color: rgba(130, 138, 159, 1);
+background-color:rgba(32, 32, 32, 1) ;}
+
+.list-header{background-color:rgba(56, 62, 77, 1) ;
+    display: flex;
+    color:rgba(255, 255, 255, 1);
+    justify-items: center;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;}
+
+.event-text{opacity: 50%;}
+
+.eventlist-content{background-color: rgba(255, 255, 255, 1);
+    padding-top:  12px;
+    }
+
+.eventcard{
+            border: 3px solid;
+            border-color: rgba(225, 227, 255, 1);
+        border-radius: 16px;
+        width:350px;
+        height: 156px;
+        padding:12px ;
+        margin-bottom:12px;}   
+        
+.cardtop{ width: 350px;
+        height: 36px; 
+        display: flex;
+        justify-content: space-between;}
+
+.initial{min-width: 30px;
+        min-height: 30px;        
+        border-radius: 50%;
+        background-color: rgba(225, 227, 255, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 13.33px;
+        }
+
+
+p{font-size: 16px;
+    font-weight: 600;}
+
+.dim{font-size: 14px;
+        font-weight: 400;
+        color: rgba(100, 116, 139, 1);}
+
+.cardmiddle{display: flex; 
+        gap: 70px;   
+        padding-right: 50px;
+    margin-top: 20px;}
+
+.cardbottom{display: flex;
+        justify-content: space-between;
+        border-top: 1px solid;
+        border-color:rgba(241, 245, 249, 1) ;
+        padding-top: 5px ;
+        padding-bottom: 5px;
+    margin-top:20px;}
+
+.enrollment-details{ background-color:rgba(241, 241, 241, 1) ;
+                width:1040px ;
+                height:1373px;
+            border-top: 1px;
+        border-color: rgba(255, 255, 255, 0.3);
+        margin-top:0;}
+
+.profile-info{width:1040px ;
+            height:185px ;
+        background-color:rgba(225, 227, 255, 1) ;
+        margin-top: 0;}        
+
+.profiletop{display: flex;
+        gap: 20px;
+        padding:20px ;}
+
+.avatar{width: 60px;
+    height: 60px;
+    border-radius: 50%;
+border: 2px solid;
+border-color: rgba(255, 255, 255, 0.2);
+background-color: rgba(255, 255, 255, 0.8);
+display: flex;
+justify-items: center;
+align-items: center;
+justify-content: center;
+font-size: 20PX;
+font-weight: 600;}
+
+.text{line-height: 20px;}
+
+.profilebottom{display: flex;
+    justify-content: space-between;
+margin-right: 30px;}
+
+.box-dim{width: 237px;
+    height:49px ;
+    border-radius:14px ;
+border:1px solid ;
+border-color: rgba(255, 255, 255, 0.6);
+padding: 12px;
+margin-left:30px ;}  
+
+.box-light{width: 220px;
+    height:49px ;
+    border-radius:14px ;
+border:1px solid ;
+border-color: rgba(255, 255, 255, 0.2);
+padding: 12px;
+background-color: rgba(255, 255, 255, 1);
+margin-left:30px ;
+}
+
+.tab{width:100% ;
+    height: 44px;
+    border-bottom: 1px solid;
+    border-color:rgba(0, 0, 0, 0.1) ;
+    color: rgba(255, 255, 255, 0.05);
+    display: flex;}
+
+.patient-tab{flex: 1;
+    border-radius: 0;   
+    border: none;
+    font-size: 16px;
+    font-weight: bold;  
+}
+
+.event-tab{flex: 1;
+    border-radius: 0;   
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;  
+}
+
+
+.button.event-info{border-radius: 0%;
+    width: 50%;}
+
+.content{margin-left: 0px; 
+    margin-top: 0;
+    }
+
+.patient-info2{ margin-left: 8px;
+            margin-left: 20px; 
+            margin-right: 20px;
+    background: rgba(255, 255, 255, 1);
+        width: 980px;
+    height:503px ;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 16px
+
+}
+.section-tittle{margin-left:10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;}
+
+.grid{display: flex;}
+.info-card{ width: 476px;
+    height: 284px;
+    margin-left: 2px;
+    margin-right: 8px;
+    border: 1px solid;
+        border-color: rgba(229, 231, 235, 1);
+        border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    display: grid;
+    gap: 12px;}
+
+.info-grid{display: grid;
+    grid-template-columns: 1fr 1fr;
+gap: 14px; margin-top:0;}
+
+span{font-weight: 600;
+    font-size: 16px;}
+
+.info-item.wide{grid-column: span 2;}
+
+.emergency{ width:924px;
+    height: 80px;
+    margin-left: 2px;
+    margin-right: 8px;
+    margin-top: 10px;
+    border: 1px solid;
+        border-color: rgba(229, 231, 235, 1);
+        border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    }
+
+.info-grid2{display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 20px;}    
+
+.insurance-details{margin-top: 15px;
+            margin-left: 20px; 
+            margin-right: 20px;
+    background: rgba(255, 255, 255, 1);
+        width: 980px;
+    height:400px ;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 16px}
+
+.info-card2{ width: 968px;
+    height: 284px;
+    margin-left: 2px;
+    margin-right: 8px;   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    gap: 30px;
+    }    
+
+
+
+.heading{width: 900px;
+    height: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 0;
+    }    
+.info-card3{ width: 968px;
+    height: 150px;
+    margin-left: 2px;
+    margin-right: 8px;   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    gap: 30px;
+    } 
+
+.info-grid3{display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    }  
+
+
+.info-grid4{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+gap: 14px; margin-top:0;}    
+
+.info-card4{ width: 968px;
+    height: 200px;
+    margin-left: 2px;
+    margin-right: 8px;
+    padding-left: 20px;
+    display: grid;
+    }
+
+.attachments{margin-top: 15px;
+            margin-left: 20px; 
+    background: rgba(255, 255, 255, 1);
+        width: 968px;
+    height:100px ;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 25px}    
+
+a{text-decoration: none ;}
+
+.footer{width: 1020px;
+    height: 65px;
+    background-color:rgba(56, 62, 77, 1);
+}
+
+.new{;}
